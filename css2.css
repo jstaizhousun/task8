@@ -79,24 +79,26 @@ main .right-box .right-bottom{
 .left-box li {
     height: 50px;
     line-height: 50px;
-    padding-left: 25%;
+    padding-left: 15%;
     font-size: 15px;
     list-style: none;
     
 }
-ul {
+.left-box {
+    margin: 0 15px !important;
+}
+.left-box ul {
     padding: 0;
-    
 }
 .left-nav-title {
     height: 80px;
     line-height: 80px;
     margin-bottom: 20px;
-    padding: 0;
+    padding: 0 !important;
     text-align: center;
     font-size: 20px;
     font-weight: 600;
-    border-bottom: 1pxsolid #ededed;
+    border-bottom: 1px solid #ededed;
 }
 .nav-left-a {
     padding-left: 20px;
@@ -105,6 +107,12 @@ ul {
     color: #29b078;
 }
 .nav-left-a:hover {
+    text-decoration: none;
+    background: url(b-3-hover.png) no-repeat left center;
+    background-size: 15px 15px;
+    color: #ff650e;
+}
+.active-2 {
     text-decoration: none;
     background: url(b-3-hover.png) no-repeat left center;
     background-size: 15px 15px;

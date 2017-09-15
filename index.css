@@ -13,7 +13,22 @@ body{
 .active {
     border-bottom: 2px solid #fff;
 }
-
+.pd {
+    margin: 30px 0 !important;
+    padding: 0 !important;
+}
+.cir {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-right: 3%;
+    box-shadow: .5px 1px 1px 1px #888;
+    border-radius: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 1rem;
+    color: #29b078;
+}
 /*header*/
 
 header .span1{
@@ -150,6 +165,24 @@ main .publicize .i2{
     background-position: -441px -57px;
     margin: auto;
     margin-top: 14px;
+}
+.main-mid-font {
+    float: left;
+    width: 150px;
+    height: 40px;
+    font-size: .6rem;
+    color: #999999;
+}
+.main-mid-arrow {
+    position: absolute;
+    right: 10%;
+    width: 20px;
+    height: 40px;
+    background: url(img/index_09.png) no-repeat center center;
+    background-size: 20px 20px;
+}
+.space-1 {
+    line-height: 40px;
 }
 main .publicize .i3{
     width: 52px;

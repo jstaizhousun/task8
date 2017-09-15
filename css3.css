@@ -12,23 +12,36 @@ main .select{
     border-bottom: solid 1px #EDF1F2;
     font-size: 0.6rem;
 }
-main .select span{
+main .select .col-xs-10 span{
     color: #9E9E9E;
     display: block;
     float: left;
+    position: relative;
+    top: -5px;
+    font-size: .9rem;
 }
 .buttons{
     float: left;
 }
 main .select .btn{
-    font-size: 0.7rem;
+    font-size: .9rem;
     padding: 0;
     position: relative;
     top: -5px;
     margin-left: 20px;
+    color: #999;
 }
-main .select .active{
-    color: #FFF;
+.btn:visited {
+    color: #fff;
+    background-color: #1DB176;
+}
+.btn:hover {
+    color: #fff !important;
+    background-color: #1DB176;
+}
+.active {
+    color: #fff !important;
+    background-color: #1DB176;
 }
 main .stud{
     background-color: #FFF;
