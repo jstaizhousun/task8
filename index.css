@@ -86,8 +86,8 @@ header .navbar-nav .nav-white{;
     background-color: #FFF;
 }
 .nav-white-2 {
-     height: 5px;
-     background-color: #FFF;
+     height: 5px !important;
+     background-color: #FFF !important;
 }
 header img{
     margin-top: 20px;
