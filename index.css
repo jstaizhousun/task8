@@ -70,7 +70,7 @@ header .navbar-nav .nav-white{;
 .navbar-nav li:hover .nav-white{
     background-color: #FFF;
 }
-+ {
+.nav-white-2 {
      height: 5px;
      background-color: #FFF;
 }
@@ -117,7 +117,7 @@ header .nav>li>a:focus{
     border-bottom: solid;border-color: #FFF;border-width: 1px;
 }
 a{
-    color: #FFF;;
+    color: #FFF;
 }
 header .tanchuang{
     background-color: #1DB176;
