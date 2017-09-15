@@ -23,6 +23,9 @@ main .select .col-xs-10 span{
 .buttons{
     float: left;
 }
+.tl {
+    margin-left: 15px;
+}
 main .select .btn{
     font-size: .9rem;
     padding: 0;

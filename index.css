@@ -174,8 +174,7 @@ main .publicize .i2{
     color: #999999;
 }
 .main-mid-arrow {
-    position: absolute;
-    right: 10%;
+    margin-left: 80%;
     width: 20px;
     height: 40px;
     background: url(img/index_09.png) no-repeat center center;
