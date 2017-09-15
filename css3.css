@@ -1,0 +1,145 @@
+/*main*/
+main{
+    padding-bottom: 180px;
+}
+main a+span{
+    cursor: pointer;
+    color: #1DB176;
+}
+main .select{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: solid 1px #EDF1F2;
+    font-size: 0.6rem;
+}
+main .select span{
+    color: #9E9E9E;
+    display: block;
+    float: left;
+}
+.buttons{
+    float: left;
+}
+main .select .btn{
+    font-size: 0.7rem;
+    padding: 0;
+    position: relative;
+    top: -5px;
+    margin-left: 20px;
+}
+main .select .active{
+    color: #FFF;
+}
+main .stud{
+    background-color: #FFF;
+    font-size: 0.6rem;
+    word-break: break-all;
+    border: solid 1px #EDF1F2;
+    position: relative;
+}
+main .stud img{
+    width: 100%;
+    margin-top: 15px;
+}
+main .stud h4{
+    margin: 0;
+    height: 50px;
+}
+main .stud .detail{
+    padding: 0 15px;
+
+}
+main .detail .row div{
+    padding: 10px;
+    color: #999;
+}
+main .detail img{
+    width: 17px;
+    height: 17px;
+    margin: 0 0 0 15px;
+    position: relative;
+    top: -1px;
+}
+main .detail .red{
+    color: #F30C00;
+}
+main .detail .black{
+    color: #333;
+}
+main .detail .black-l{
+    float: right;
+}
+main .detail .col-xs-7 .row{
+    margin: 0 -10px;
+}
+main .detail .col-xs-7{
+    padding-bottom: 0;
+}
+main .detail .mon{
+    display: block;
+    text-align: center;
+    margin-top: 41.5px;
+}
+main .detail .font-08{
+    font-size: 0.8rem;
+}
+
+main .over{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: rgba(0,0,0,0);
+    color: #FFF;
+    padding: 15% 10%;
+    word-break: break-all;
+    transition: background-color 1.5s;
+    transition-timing-function: cubic-bezier(0.6, 0.05, 0.795, 0.035);
+}
+main .stud:hover .over{
+    z-index: 10;
+    background-color: rgba(0,0,0,0.8);
+}
+main .over h4{
+    margin-bottom: 20px;
+}
+/*调整*/
+.mar-l-10{
+    margin: 0 0 10px 0;
+}
+.b-top{
+    border-top: solid 1px #EDF1F2;
+}
+.b-bottom{
+    border-bottom: solid 1px #EDF1F2;
+}
+.b-left{
+    border-left: solid 1px #EDF1F2;
+}
+.b-right{
+    border-right: solid 1px #EDF1F2;
+}
+@media (min-width: 768px) {
+    .pdc-l{
+        padding-left: 0;
+    }
+    .pdc-r{
+        padding-right: 0;
+    }
+    main .sm4{
+        padding-left: 0;
+        margin-top: 40px;
+    }
+    main .pdc-lf{
+        padding: 0 7.5px 0 7.5px;
+    }
+    main .pdc-r-15{
+    padding: 0 0px 0 15px
+    }
+}
+@media (max-width: 767px) {
+    main .sm4{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}

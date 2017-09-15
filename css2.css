@@ -1,0 +1,112 @@
+/*font*/
+h4{
+    font-weight: 600;
+}
+/*main*/
+main{
+    padding-bottom: 100px;
+}
+main #img1{
+    width: 100%;
+}
+main span{
+    cursor: pointer;
+    color: #1DB176;
+}
+main .left-box{
+    background-color: #FFF;
+    margin-top: 20px;
+    border: solid;
+    border-color: #E2E2E2;
+    border-width: 1px;
+    border-radius: 8px;
+}
+main .right-box{
+    background-color: #FFF;
+    margin-top: 20px;
+    border: solid;
+    border-color: #E2E2E2;
+    border-width: 1px;
+    border-radius: 8px;
+    padding-top: 15px;
+}
+main .scan{
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    border: 1px solid #FF6500;
+    display: inline-block;
+    position: relative;
+    top: 2px;
+}
+main .container .row .left-box .btn{
+    line-height: 14px;
+    padding: 0;
+    width: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #1DB176;
+    background-color: #FFF;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+main .left-box .active .scan{
+    background-color: #FBA36D;
+}
+main .container .row .left-box .active{
+    color: #FF6500;
+}
+main .right-box img{
+    padding: 40px 30px 40px 60px;
+    float: left;
+}
+.clear{
+    content: "";
+    display: block;
+    clear: both;
+}
+p{
+    color: #999;
+    padding-bottom: 20px;
+}
+main .right-box .right-top{
+    border-bottom: solid 1px #EDEDED;
+    padding-right: 50px;
+}
+main .right-box .right-bottom{
+    padding: 50px;
+}
+.left-box li {
+    height: 50px;
+    line-height: 50px;
+    padding-left: 25%;
+    font-size: 15px;
+    list-style: none;
+    
+}
+ul {
+    padding: 0;
+    
+}
+.left-nav-title {
+    height: 80px;
+    line-height: 80px;
+    margin-bottom: 20px;
+    padding: 0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 1pxsolid #ededed;
+}
+.nav-left-a {
+    padding-left: 20px;
+    background: url(b-3.png) no-repeat left center;
+    background-size: 15px 15px;
+    color: #29b078;
+}
+.nav-left-a:hover {
+    text-decoration: none;
+    background: url(b-3-hover.png) no-repeat left center;
+    background-size: 15px 15px;
+    color: #ff650e;
+}
