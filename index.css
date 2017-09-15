@@ -10,6 +10,9 @@ html {
 body{
     margin: 0;
 }
+.active {
+    border-bottom: 2px solid #fff;
+}
 
 /*header*/
 
@@ -66,6 +69,10 @@ header .navbar-nav .nav-white{;
 }
 .navbar-nav li:hover .nav-white{
     background-color: #FFF;
+}
++ {
+     height: 5px;
+     background-color: #FFF;
 }
 header img{
     margin-top: 20px;
@@ -328,14 +335,27 @@ main .cooperation:hover{
 main .coo-main{
     display: flex;
 }
+.step > span {
+    color:  green;
+}
 .cpd{
     padding: 0;
 }
 .carousel-inner img{
     width: 100%;
 }
+.foot-title {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 18px;
+}
 
 /*footer*/
+footer {
+    margin-top: 30px;
+}
 footer h4{
     font-weight: 600;
     line-height: 50px;
@@ -472,4 +492,21 @@ footer .QR-code{
     .mybug1{
         margin-top: 0;
     }
+}
+.main-li-1 > a {
+    color: #999;
+}
+.main-li-1 {
+    float: left;
+    width: 10%;
+}
+@media screen and (min-width:425px) and (max-width:945px) {
+.main-li-1 {
+    width: 20%;
+}
+}
+@media screen and (max-width:424px) {
+.main-li-1 {
+    width: 50%;
+}
 }
