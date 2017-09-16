@@ -29,6 +29,9 @@ body{
     font-size: 1rem;
     color: #29b078;
 }
+.jns {
+    cursor: pointer;
+}
 /*header*/
 
 header .span1{
@@ -425,6 +428,7 @@ footer h6{
 footer .QR-code{
     width: 92px;
     height: 92px;
+    margin-bottom: 30px;
     background-image: url("CssGaga.png");
     background-repeat: no-repeat;
     background-position: 0 -111px;
